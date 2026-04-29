@@ -1,5 +1,5 @@
 Feature: This feature contains set of test cases to search in google
-
+@Smoke
 Scenario Outline: verify serch result of "Selenium Java interview questions"
 Given user is already on google search page
 When user enters <textToBeSearched> into search input field 
